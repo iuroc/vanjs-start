@@ -1,0 +1,21 @@
+{
+    "scripts": {
+        "dev:frontend": "npx vite",
+        "dev:backend:tsc": "npx tsc -p backend/tsconfig.json -w",
+        "dev:backend:node": "npx nodemon backend/js/main.js",
+        "build:frontend": "npx vite build",
+        "build:backend": "npx tsc -p backend/tsconfig.json",
+        "start": "node backend/js/main.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "vanjs-core": "^1.5.0",
+        "vanjs-router": "^1.2.3"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "nodemon": "^3.1.0",
+        "typescript": "^5.4.3",
+        "vite": "^5.2.6"
+    }
+}
