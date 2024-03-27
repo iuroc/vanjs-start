@@ -3,6 +3,7 @@
         "dev:frontend": "npx vite",
         "dev:backend:tsc": "npx tsc -p backend/tsconfig.json -w",
         "dev:backend:node": "npx nodemon backend/js/main.js",
+        "build": "npm run build:frontend && npm run build:backend",
         "build:frontend": "npx vite build",
         "build:backend": "npx tsc -p backend/tsconfig.json",
         "start": "node backend/js/main.js"
