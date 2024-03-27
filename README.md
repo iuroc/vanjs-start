@@ -6,6 +6,7 @@
 
 ```bash
 git clone https://github.com/iuroc/vanjs-start.git
+git remote rm origin
 npm install
 ```
 
